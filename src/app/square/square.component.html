@@ -1,0 +1,7 @@
+
+<!-- <button nbButton hero status="success" *ngIf="value == 'X'">{{ value }}</button> -->
+<!-- <button nbButton hero status="info" *ngIf="value == 'O'">{{ value }}</button> -->
+
+<button nbButton hero status="primary" *ngIf="!value">{{ value }}</button>
+<button  *ngIf="value == 'X'" mat-button color="primary">{{ value }}</button>
+<button *ngIf="value == 'O'" mat-button color="warn">{{ value }}</button>
